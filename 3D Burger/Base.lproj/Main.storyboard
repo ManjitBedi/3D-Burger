@@ -21,12 +21,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" allowsCameraControl="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VNJ-ov-jpX">
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" sceneName="burger.scnassets/cheeseburger.scn" allowsCameraControl="YES" preferredRenderingAPI="2" translatesAutoresizingMaskIntoConstraints="NO" id="VNJ-ov-jpX">
                                 <rect key="frame" x="13" y="95" width="349" height="552"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </sceneKitView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VNJ-ov-jpX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="75" id="9wf-lx-Nt5"/>
+                            <constraint firstItem="VNJ-ov-jpX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="13" id="Awb-FW-AWJ"/>
+                            <constraint firstAttribute="trailing" secondItem="VNJ-ov-jpX" secondAttribute="trailing" constant="13" id="MtN-jW-mVg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VNJ-ov-jpX" secondAttribute="bottom" constant="20" id="flN-3T-wJ8"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
