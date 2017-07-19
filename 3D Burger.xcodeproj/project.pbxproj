@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		786729B61F1FDB7F00E38ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786729B51F1FDB7F00E38ADA /* AppDelegate.swift */; };
+		786729B81F1FDB7F00E38ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786729B71F1FDB7F00E38ADA /* ViewController.swift */; };
+		786729BB1F1FDB8000E38ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786729B91F1FDB8000E38ADA /* Main.storyboard */; };
+		786729BD1F1FDB8000E38ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786729BC1F1FDB8000E38ADA /* Assets.xcassets */; };
+		786729C01F1FDB8000E38ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786729BE1F1FDB8000E38ADA /* LaunchScreen.storyboard */; };
+		786729C51F1FDB8000E38ADA /* 3D Burger WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 786729C41F1FDB8000E38ADA /* 3D Burger WatchKit App.app */; };
+		786729CB1F1FDB8000E38ADA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786729C91F1FDB8000E38ADA /* Interface.storyboard */; };
+		786729CD1F1FDB8000E38ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786729CC1F1FDB8000E38ADA /* Assets.xcassets */; };
+		786729D41F1FDB8000E38ADA /* 3D Burger WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 786729D31F1FDB8000E38ADA /* 3D Burger WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		786729D91F1FDB8000E38ADA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786729D81F1FDB8000E38ADA /* InterfaceController.swift */; };
+		786729DB1F1FDB8000E38ADA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786729DA1F1FDB8000E38ADA /* ExtensionDelegate.swift */; };
+		786729DD1F1FDB8000E38ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786729DC1F1FDB8000E38ADA /* Assets.xcassets */; };
+		78EAC8FC1F1FE62F00113ADE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EAC8FB1F1FE62F00113ADE /* art.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		786729C61F1FDB8000E38ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786729AA1F1FDB7F00E38ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786729C31F1FDB8000E38ADA;
+			remoteInfo = "3D Burger WatchKit App";
+		};
+		786729D51F1FDB8000E38ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786729AA1F1FDB7F00E38ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786729D21F1FDB8000E38ADA;
+			remoteInfo = "3D Burger WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		786729E41F1FDB8000E38ADA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				786729D41F1FDB8000E38ADA /* 3D Burger WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786729E81F1FDB8000E38ADA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				786729C51F1FDB8000E38ADA /* 3D Burger WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		786729B21F1FDB7F00E38ADA /* 3D Burger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Burger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		786729B51F1FDB7F00E38ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		786729B71F1FDB7F00E38ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		786729BA1F1FDB8000E38ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		786729BC1F1FDB8000E38ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		786729BF1F1FDB8000E38ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		786729C11F1FDB8000E38ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786729C41F1FDB8000E38ADA /* 3D Burger WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Burger WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		786729CA1F1FDB8000E38ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		786729CC1F1FDB8000E38ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		786729CE1F1FDB8000E38ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786729D31F1FDB8000E38ADA /* 3D Burger WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "3D Burger WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		786729D81F1FDB8000E38ADA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		786729DA1F1FDB8000E38ADA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		786729DC1F1FDB8000E38ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		786729DE1F1FDB8000E38ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786729EC1F1FDDAB00E38ADA /* Burger.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Burger.scn; sourceTree = "<group>"; };
+		78EAC8FB1F1FE62F00113ADE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		786729AF1F1FDB7F00E38ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786729D01F1FDB8000E38ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		786729A91F1FDB7F00E38ADA = {
+			isa = PBXGroup;
+			children = (
+				786729EC1F1FDDAB00E38ADA /* Burger.scn */,
+				786729B41F1FDB7F00E38ADA /* 3D Burger */,
+				786729C81F1FDB8000E38ADA /* 3D Burger WatchKit App */,
+				786729D71F1FDB8000E38ADA /* 3D Burger WatchKit Extension */,
+				786729B31F1FDB7F00E38ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		786729B31F1FDB7F00E38ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				786729B21F1FDB7F00E38ADA /* 3D Burger.app */,
+				786729C41F1FDB8000E38ADA /* 3D Burger WatchKit App.app */,
+				786729D31F1FDB8000E38ADA /* 3D Burger WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		786729B41F1FDB7F00E38ADA /* 3D Burger */ = {
+			isa = PBXGroup;
+			children = (
+				786729B51F1FDB7F00E38ADA /* AppDelegate.swift */,
+				786729B71F1FDB7F00E38ADA /* ViewController.swift */,
+				786729B91F1FDB8000E38ADA /* Main.storyboard */,
+				786729BC1F1FDB8000E38ADA /* Assets.xcassets */,
+				786729BE1F1FDB8000E38ADA /* LaunchScreen.storyboard */,
+				786729C11F1FDB8000E38ADA /* Info.plist */,
+			);
+			path = "3D Burger";
+			sourceTree = "<group>";
+		};
+		786729C81F1FDB8000E38ADA /* 3D Burger WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				786729C91F1FDB8000E38ADA /* Interface.storyboard */,
+				786729CC1F1FDB8000E38ADA /* Assets.xcassets */,
+				786729CE1F1FDB8000E38ADA /* Info.plist */,
+			);
+			path = "3D Burger WatchKit App";
+			sourceTree = "<group>";
+		};
+		786729D71F1FDB8000E38ADA /* 3D Burger WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				78EAC8FB1F1FE62F00113ADE /* art.scnassets */,
+				786729D81F1FDB8000E38ADA /* InterfaceController.swift */,
+				786729DA1F1FDB8000E38ADA /* ExtensionDelegate.swift */,
+				786729DC1F1FDB8000E38ADA /* Assets.xcassets */,
+				786729DE1F1FDB8000E38ADA /* Info.plist */,
+			);
+			path = "3D Burger WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		786729B11F1FDB7F00E38ADA /* 3D Burger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786729E91F1FDB8000E38ADA /* Build configuration list for PBXNativeTarget "3D Burger" */;
+			buildPhases = (
+				786729AE1F1FDB7F00E38ADA /* Sources */,
+				786729AF1F1FDB7F00E38ADA /* Frameworks */,
+				786729B01F1FDB7F00E38ADA /* Resources */,
+				786729E81F1FDB8000E38ADA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786729C71F1FDB8000E38ADA /* PBXTargetDependency */,
+			);
+			name = "3D Burger";
+			productName = "3D Burger";
+			productReference = 786729B21F1FDB7F00E38ADA /* 3D Burger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		786729C31F1FDB8000E38ADA /* 3D Burger WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786729E51F1FDB8000E38ADA /* Build configuration list for PBXNativeTarget "3D Burger WatchKit App" */;
+			buildPhases = (
+				786729C21F1FDB8000E38ADA /* Resources */,
+				786729E41F1FDB8000E38ADA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786729D61F1FDB8000E38ADA /* PBXTargetDependency */,
+			);
+			name = "3D Burger WatchKit App";
+			productName = "3D Burger WatchKit App";
+			productReference = 786729C41F1FDB8000E38ADA /* 3D Burger WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		786729D21F1FDB8000E38ADA /* 3D Burger WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786729E11F1FDB8000E38ADA /* Build configuration list for PBXNativeTarget "3D Burger WatchKit Extension" */;
+			buildPhases = (
+				786729CF1F1FDB8000E38ADA /* Sources */,
+				786729D01F1FDB8000E38ADA /* Frameworks */,
+				786729D11F1FDB8000E38ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Burger WatchKit Extension";
+			productName = "3D Burger WatchKit Extension";
+			productReference = 786729D31F1FDB8000E38ADA /* 3D Burger WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		786729AA1F1FDB7F00E38ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = noorg;
+				TargetAttributes = {
+					786729B11F1FDB7F00E38ADA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FPL5896D45;
+						ProvisioningStyle = Automatic;
+					};
+					786729C31F1FDB8000E38ADA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FPL5896D45;
+						ProvisioningStyle = Automatic;
+					};
+					786729D21F1FDB8000E38ADA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FPL5896D45;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 786729AD1F1FDB7F00E38ADA /* Build configuration list for PBXProject "3D Burger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 786729A91F1FDB7F00E38ADA;
+			productRefGroup = 786729B31F1FDB7F00E38ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				786729B11F1FDB7F00E38ADA /* 3D Burger */,
+				786729C31F1FDB8000E38ADA /* 3D Burger WatchKit App */,
+				786729D21F1FDB8000E38ADA /* 3D Burger WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		786729B01F1FDB7F00E38ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786729C01F1FDB8000E38ADA /* LaunchScreen.storyboard in Resources */,
+				786729BD1F1FDB8000E38ADA /* Assets.xcassets in Resources */,
+				786729BB1F1FDB8000E38ADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786729C21F1FDB8000E38ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786729CD1F1FDB8000E38ADA /* Assets.xcassets in Resources */,
+				786729CB1F1FDB8000E38ADA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786729D11F1FDB8000E38ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786729DD1F1FDB8000E38ADA /* Assets.xcassets in Resources */,
+				78EAC8FC1F1FE62F00113ADE /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		786729AE1F1FDB7F00E38ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786729B81F1FDB7F00E38ADA /* ViewController.swift in Sources */,
+				786729B61F1FDB7F00E38ADA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786729CF1F1FDB8000E38ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786729DB1F1FDB8000E38ADA /* ExtensionDelegate.swift in Sources */,
+				786729D91F1FDB8000E38ADA /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		786729C71F1FDB8000E38ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786729C31F1FDB8000E38ADA /* 3D Burger WatchKit App */;
+			targetProxy = 786729C61F1FDB8000E38ADA /* PBXContainerItemProxy */;
+		};
+		786729D61F1FDB8000E38ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786729D21F1FDB8000E38ADA /* 3D Burger WatchKit Extension */;
+			targetProxy = 786729D51F1FDB8000E38ADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		786729B91F1FDB8000E38ADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786729BA1F1FDB8000E38ADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		786729BE1F1FDB8000E38ADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786729BF1F1FDB8000E38ADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		786729C91F1FDB8000E38ADA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786729CA1F1FDB8000E38ADA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		786729DF1F1FDB8000E38ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		786729E01F1FDB8000E38ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		786729E21F1FDB8000E38ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = FPL5896D45;
+				INFOPLIST_FILE = "3D Burger WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noorg.-D-Burger.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		786729E31F1FDB8000E38ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = FPL5896D45;
+				INFOPLIST_FILE = "3D Burger WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noorg.-D-Burger.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		786729E61F1FDB8000E38ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPL5896D45;
+				IBSC_MODULE = _D_Burger_WatchKit_Extension;
+				INFOPLIST_FILE = "3D Burger WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noorg.-D-Burger.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		786729E71F1FDB8000E38ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPL5896D45;
+				IBSC_MODULE = _D_Burger_WatchKit_Extension;
+				INFOPLIST_FILE = "3D Burger WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noorg.-D-Burger.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		786729EA1F1FDB8000E38ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPL5896D45;
+				INFOPLIST_FILE = "3D Burger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noorg.-D-Burger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		786729EB1F1FDB8000E38ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPL5896D45;
+				INFOPLIST_FILE = "3D Burger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noorg.-D-Burger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		786729AD1F1FDB7F00E38ADA /* Build configuration list for PBXProject "3D Burger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786729DF1F1FDB8000E38ADA /* Debug */,
+				786729E01F1FDB8000E38ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786729E11F1FDB8000E38ADA /* Build configuration list for PBXNativeTarget "3D Burger WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786729E21F1FDB8000E38ADA /* Debug */,
+				786729E31F1FDB8000E38ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786729E51F1FDB8000E38ADA /* Build configuration list for PBXNativeTarget "3D Burger WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786729E61F1FDB8000E38ADA /* Debug */,
+				786729E71F1FDB8000E38ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786729E91F1FDB8000E38ADA /* Build configuration list for PBXNativeTarget "3D Burger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786729EA1F1FDB8000E38ADA /* Debug */,
+				786729EB1F1FDB8000E38ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 786729AA1F1FDB7F00E38ADA /* Project object */;
+}

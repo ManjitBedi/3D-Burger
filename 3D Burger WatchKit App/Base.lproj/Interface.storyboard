@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="17A306f" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="_D_Burger_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <sceneKitScene alignment="left" scene="art.scnassets/sample.scn" id="XPB-GP-gtS">
+                            <color key="backgroundColor" red="1" green="0.5766579468325792" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </sceneKitScene>
+                    </items>
+                    <connections>
+                        <outlet property="sceneInterface" destination="XPB-GP-gtS" id="vxt-76-kAD"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
