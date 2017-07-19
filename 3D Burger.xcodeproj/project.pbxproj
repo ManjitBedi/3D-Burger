@@ -19,8 +19,8 @@
 		786729D91F1FDB8000E38ADA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786729D81F1FDB8000E38ADA /* InterfaceController.swift */; };
 		786729DB1F1FDB8000E38ADA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786729DA1F1FDB8000E38ADA /* ExtensionDelegate.swift */; };
 		786729DD1F1FDB8000E38ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786729DC1F1FDB8000E38ADA /* Assets.xcassets */; };
-		78EAC8FE1F20049F00113ADE /* burger.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EAC8FD1F20049F00113ADE /* burger.scnassets */; };
-		78EAC8FF1F2004B400113ADE /* burger.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EAC8FD1F20049F00113ADE /* burger.scnassets */; };
+		78CD60281F20242200CE0751 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CD60271F20241F00CE0751 /* art.scnassets */; };
+		78CD60291F20242300CE0751 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CD60271F20241F00CE0751 /* art.scnassets */; };
 		78EAC9021F2008D700113ADE /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EAC9011F2008D700113ADE /* SceneKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,7 +83,7 @@
 		786729DA1F1FDB8000E38ADA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		786729DC1F1FDB8000E38ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		786729DE1F1FDB8000E38ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78EAC8FD1F20049F00113ADE /* burger.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = burger.scnassets; sourceTree = "<group>"; };
+		78CD60271F20241F00CE0751 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		78EAC9011F2008D700113ADE /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,7 @@
 		786729A91F1FDB7F00E38ADA = {
 			isa = PBXGroup;
 			children = (
-				78EAC8FD1F20049F00113ADE /* burger.scnassets */,
+				78CD60271F20241F00CE0751 /* art.scnassets */,
 				786729B41F1FDB7F00E38ADA /* 3D Burger */,
 				786729C81F1FDB8000E38ADA /* 3D Burger WatchKit App */,
 				786729D71F1FDB8000E38ADA /* 3D Burger WatchKit Extension */,
@@ -233,7 +233,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = noorg;
 				TargetAttributes = {
 					786729B11F1FDB7F00E38ADA = {
@@ -278,10 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78EAC8FF1F2004B400113ADE /* burger.scnassets in Resources */,
 				786729C01F1FDB8000E38ADA /* LaunchScreen.storyboard in Resources */,
 				786729BD1F1FDB8000E38ADA /* Assets.xcassets in Resources */,
 				786729BB1F1FDB8000E38ADA /* Main.storyboard in Resources */,
+				78CD60281F20242200CE0751 /* art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				786729DD1F1FDB8000E38ADA /* Assets.xcassets in Resources */,
-				78EAC8FE1F20049F00113ADE /* burger.scnassets in Resources */,
+				78CD60291F20242300CE0751 /* art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +377,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -385,7 +387,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -428,7 +434,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -436,7 +444,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

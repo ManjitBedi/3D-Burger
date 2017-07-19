@@ -14,7 +14,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="_D_Burger_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <sceneKitScene alignment="left" scene="burger.scnassets/cheeseburger.scn" id="XPB-GP-gtS">
+                        <sceneKitScene alignment="left" scene="art.scnassets/burger.scn" id="XPB-GP-gtS">
                             <color key="backgroundColor" red="1" green="0.5766579468325792" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </sceneKitScene>
                     </items>
