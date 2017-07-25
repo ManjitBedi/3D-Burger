@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import SceneKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var sceneView: SCNView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +25,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        checkSceneKitLoaded()
+    }
+    
+    func checkSceneKitLoaded() {
+        guard let scene = sceneView.scene else {
+            return
+        }
+        
+        print("scene loaded \(scene)")
+    }
 }
 
