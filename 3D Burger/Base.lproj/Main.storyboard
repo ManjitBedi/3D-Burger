@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" playing="YES" sceneName="art.scnassets/burger_dressed.scn" allowsCameraControl="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VNJ-ov-jpX">
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" playing="YES" sceneName="art.scnassets/burger_test.scn" allowsCameraControl="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VNJ-ov-jpX">
                                 <rect key="frame" x="13" y="95" width="349" height="552"/>
                             </sceneKitView>
                         </subviews>
